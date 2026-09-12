@@ -1,0 +1,158 @@
+:root {
+  --primary-bg: #1c0242;
+  --nav-bg: #2d2d2d;
+  --accent-color: #ffff00;
+  --text-color: #222222;
+  --card-border: #cccccc;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 2rem 0;
+  font-size: 1rem;
+  color: var(--text-color);
+  background-color: #ffffff;
+}
+
+header, main, footer {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: var(--primary-bg);
+  color: white; 
+  text-align: center;
+  padding-top: 1rem;
+}
+
+#course-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: bold;
+  padding: 1.5rem 0;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--nav-bg);
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.8rem 1rem;
+  display: block;
+  font-size: 1rem;
+  width: 100%;
+  text-align: center;
+}
+
+nav a:hover {
+  background-color: #444444;
+}
+
+main {
+  padding: 1.5rem 0;
+  display: grid;
+  grid-template-columns: 1.8fr 1fr;
+  gap: 1.2rem;
+}
+
+main h1 {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 2.2rem;
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.card {
+  background-color: white;
+  border: 1px solid var(--card-border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card h2 {
+  background-color: var(--primary-bg);
+  color: white;
+  margin: 0;
+  padding: 0.6rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.card h3 {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
+
+.bio, .country-info {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  align-items: flex-start;
+}
+
+.bio p, .country-info p {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.card img {
+  border-radius: 4px;
+  object-fit: cover;
+  width: 150px;
+}
+
+.country-info img {
+  width: 120px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-color: #e0e0e0;
+  margin: 0 1rem;
+}
+
+.card ul {
+  padding-left: 2rem;
+  padding-top: 0.5rem;
+  margin: 0;
+}
+
+.card li {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+
+.card a {
+  color: #0000ee;
+}
+
+footer {
+  background-color: var(--primary-bg);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+footer p {
+  margin: 0.3rem 0;s
+  font-size: 0.95rem;
+}
+
+#lastModified {
+  color: var(--accent-color);
+  font-size: 0.85rem;
+  font-weight: bold;
+}
