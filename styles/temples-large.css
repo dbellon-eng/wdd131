@@ -1,0 +1,25 @@
+@media (min-width: 37.5em) {
+    #menu {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .navigation {
+        display: flex !important;
+        flex-direction: row;
+        margin-top: 0;
+    }
+
+    .navigation a {
+        padding: 0.5rem 1rem;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
