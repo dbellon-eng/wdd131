@@ -42,11 +42,17 @@ h1 {
     content: "❌";
 }
 
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
 .navigation {
     display: none;
     list-style: none;
     flex-direction: column;
     margin-top: 1rem;
+    width: 100%;
 }
 
 .navigation.open {
