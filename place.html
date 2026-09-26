@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W03: Country Page - Peru</title>
+    <meta name="description" content="Country page about Peru for WDD 131 assignment.">
+    <meta name="author" content="David Bellon Asencio">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Peru</h1>
+    </header>
+
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/hero-large.webp" media="(min-width: 600px)">
+                <img src="images/hero-small.webp" alt="Scenic view of Machu Picchu" width="1000" height="600">
+            </picture>
+        </div>
+
+        <section class="data">
+            <h2>Data</h2>
+            <ul>
+                <li><span>Area:</span> 1,285,216 sq km</li>
+                <li><span>Population:</span> ~34 Million</li>
+                <li><span>Capital:</span> Lima</li>
+                <li><span>Languages:</span> Spanish, Quechua</li>
+                <li><span>Currency:</span> Peruvian Sol (PEN)</li>
+                <li><span>Time Zone:</span> UTC-5</li>
+                <li><span>Calling Code:</span> +51</li>
+                <li><span>Internet TLD:</span> .pe</li>
+            </ul>
+        </section>
+
+        <section class="weather">
+            <h2>
+                Weather
+                <img src="images/weather.svg" alt="Weather icon" class="weather-icon-mobile">
+            </h2>
+            <ul>
+                <li><span>Temperature:</span> <span id="temp">18</span>°C</li>
+                <li><span>Conditions:</span> Partly Cloudy</li>
+                <li><span>Wind:</span> <span id="wind">12</span> km/h</li>
+                <li><span>Wind Chill:</span> <span id="chill"></span></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> | David Bellon Asencio | Peru</p>
+        <p>Last Modification: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>

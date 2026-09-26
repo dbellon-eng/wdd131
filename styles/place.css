@@ -1,0 +1,138 @@
+:root {
+    --primary-color: #D91023;
+    --secondary-color: #007A33;
+    --text-color: #1A1A1A;
+    --bg-card: rgba(255, 255, 255, 0.85);
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-bottom: 5px solid var(--secondary-color);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 1.5rem;
+    width: 100%;
+}
+
+.hero {
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+section {
+    width: 90%;
+    max-width: 400px;
+    text-align: center;
+    background: var(--bg-card);
+}
+
+section h2 {
+    color: white;
+    background-color: var(--secondary-color);
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.weather-icon-mobile {
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0.5rem auto;
+}
+
+ul {
+    list-style: none;
+    padding: 0.5rem;
+}
+
+ul li {
+    padding: 0.3rem 0;
+    font-size: 0.95rem;
+}
+
+ul li span {
+    font-weight: bold;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.85rem;
+    border-top: 5px solid var(--secondary-color);
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    main {
+        position: relative;
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .hero {
+        width: 100%;
+    }
+
+    .data {
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+        width: 280px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: left;
+    }
+
+    .weather {
+        position: absolute;
+        bottom: 2rem;
+        right: 2rem;
+        width: 250px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+
+    .data h2, .weather h2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .weather-icon-mobile {
+        display: none;
+    }
+
+    .weather h2::after {
+        content: " ⛅";
+        font-size: 1.3rem;
+    }
+}
