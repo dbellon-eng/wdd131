@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 1rem;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-bottom: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+img {
+    display: block;
+    width: 400px;
+    height: 600px;
+    background-color: #000;
+    animation: fadeFromBlack 1.5s ease-in-out;
+}
+
+@keyframes fadeFromBlack {
+    0% {
+        opacity: 0;
+        background-color: #000;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+footer {
+    margin-top: 3rem;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #555;
+}
