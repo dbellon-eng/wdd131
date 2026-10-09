@@ -42,7 +42,7 @@ form {
     margin-bottom: 1.2rem;
 }
 
-.form-item label {
+.form-item > label {
     display: block;
     font-weight: bold;
     margin-bottom: 0.4rem;
@@ -84,12 +84,28 @@ textarea {
     margin-bottom: 0.2rem;
 }
 
-.checkbox-label {
+.rating-option label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.checkbox-option {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    font-weight: normal !important;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.4rem;
+}
+
+.checkbox-option label {
+    font-weight: normal;
+    cursor: pointer;
 }
 
 .submit-btn {
@@ -108,7 +124,6 @@ textarea {
     background-color: #dcdcdc;
 }
 
-/* Confirmation Styles */
 .confirmation-container {
     background-color: #ffffff;
     padding: 2rem;
