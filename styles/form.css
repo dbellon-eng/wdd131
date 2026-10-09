@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #d1c7d2;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #2b032b;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 1.8rem;
+}
+
+main {
+    flex: 1;
+    max-width: 400px;
+    width: 90%;
+    margin: 1.5rem auto;
+}
+
+form {
+    background-color: #d8cfd9;
+    padding: 1.2rem;
+    border: 1px solid #b3a5b5;
+    border-radius: 4px;
+}
+
+.form-item {
+    margin-bottom: 1.2rem;
+}
+
+.form-item label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.4rem;
+    font-size: 0.95rem;
+}
+
+.optional {
+    color: #3f225e;
+    font-weight: normal;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    background-color: #ffffff;
+    font-size: 1rem;
+}
+
+.rating-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    padding: 0 0.5rem;
+}
+
+.rating-option {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rating-option span {
+    font-size: 0.9rem;
+    margin-bottom: 0.2rem;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: normal !important;
+    margin-bottom: 0.3rem;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #e8e8e8;
+    border: 1px solid #888;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.submit-btn:hover {
+    background-color: #dcdcdc;
+}
+
+/* Confirmation Styles */
+.confirmation-container {
+    background-color: #ffffff;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.counter-box {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    background-color: #f0eaf1;
+    border-radius: 4px;
+}
+
+#reviewCount {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2b032b;
+}
+
+.back-btn {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background-color: #2b032b;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #2b032b;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin-top: auto;
+}
+
+footer p {
+    margin: 0.2rem 0;
+}
