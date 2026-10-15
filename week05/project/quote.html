@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Request a formal technical quote for medical equipment in Lima, Peru.">
+    <title>DSBA MedTech Solutions | Quote Request</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>DSBA MedTech</h1>
+                <p>Solutions Peru</p>
+            </div>
+            <button id="menu-toggle" aria-label="Toggle navigation menu">&#9776;</button>
+            <nav id="primary-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="catalog.html">Catalog</a></li>
+                    <li><a href="quote.html" class="active">Quote Request (<span id="cart-count">0</span>)</a></li>
+                    <li><a href="siteplan.html">Site Plan</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <h2>Technical Quote Request &amp; Consultation</h2>
+        
+        <div class="quote-layout">
+            <section class="selected-summary">
+                <h3>Selected Equipment Summary</h3>
+                <div id="quote-items-container"></div>
+                <div id="quote-total" class="total-box"></div>
+                <button id="clear-cart-btn" class="btn btn-secondary">Clear List</button>
+            </section>
+
+            <section class="form-panel">
+                <form id="quote-form" class="quote-form">
+                    <h3>Institution &amp; Contact Details</h3>
+                    
+                    <div class="form-group">
+                        <label for="institution">Institution Name *</label>
+                        <input type="text" id="institution" name="institution" required placeholder="Hospital or Clinic Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="contact-name">Full Name *</label>
+                        <input type="text" id="contact-name" name="contactName" required placeholder="Dr. / Ing. Full Name">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required placeholder="name@clinic.pe">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="+51 987 654 321">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="location">Location in Peru *</label>
+                        <select id="location" name="location" required>
+                            <option value="">Select Region</option>
+                            <option value="Lima">Lima Metropolitan Area</option>
+                            <option value="Callao">Callao</option>
+                            <option value="Arequipa">Arequipa</option>
+                            <option value="La Libertad">La Libertad</option>
+                            <option value="Other">Other Region</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="comments">Additional Technical Requirements</label>
+                        <textarea id="comments" name="comments" rows="4" placeholder="Mention urgency, warranty terms, or installation requirements..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit Quote Request</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> DSBA MedTech Solutions | David Spencer Bellon Asencio | Lima, Peru</p>
+        <p><a href="references.html">References</a> | <a href="siteplan.html">Site Plan</a></p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

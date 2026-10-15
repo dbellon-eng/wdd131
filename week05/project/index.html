@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DSBA MedTech Solutions - Authorized distributor and technical support provider for biomedical equipment in Lima, Peru.">
+    <title>DSBA MedTech Solutions | Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+    <script src="scripts/main.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>DSBA MedTech</h1>
+                <p>Solutions Peru</p>
+            </div>
+            <button id="menu-toggle" aria-label="Toggle navigation menu">&#9776;</button>
+            <nav id="primary-nav">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="catalog.html">Catalog</a></li>
+                    <li><a href="quote.html">Quote Request (<span id="cart-count">0</span>)</a></li>
+                    <li><a href="siteplan.html">Site Plan</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Leading Biomedical Equipment Distributor in Lima, Peru</h2>
+                <p>Providing high-demand medical machinery, technical support, and preventive maintenance for hospitals and clinics across Peru.</p>
+                <div class="hero-buttons">
+                    <a href="catalog.html" class="btn btn-primary">Browse Equipment Catalog</a>
+                    <a href="quote.html" class="btn btn-secondary">Request Quote</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="feature-card">
+                <h3>Authorized Distribution</h3>
+                <p>Direct supply of ICU mechanical ventilators, HemoCue analyzers, and clinical centrifuges from top global manufacturers.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Localized Maintenance</h3>
+                <p>On-site technical support in Lima and rapid dispatch of specialized spare parts for healthcare facilities.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Customized Quotes</h3>
+                <p>Fast technical consultations and transparent quote requests tailored to public and private health institutions.</p>
+            </div>
+        </section>
+
+        <section class="featured-section">
+            <h3>Featured Equipment</h3>
+            <div id="featured-grid" class="product-grid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> DSBA MedTech Solutions | David Spencer Bellon Asencio | Lima, Peru</p>
+        <p><a href="references.html">References</a> | <a href="siteplan.html">Site Plan</a></p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
