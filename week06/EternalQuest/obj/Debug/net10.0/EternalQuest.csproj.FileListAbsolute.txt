@@ -1,0 +1,15 @@
+D:\David\BYU- Pathway\Block_5_2026\WDD131\wdd131\week06\EternalQuest\bin\Debug\net10.0\EternalQuest.exe
+D:\David\BYU- Pathway\Block_5_2026\WDD131\wdd131\week06\EternalQuest\bin\Debug\net10.0\EternalQuest.deps.json
+D:\David\BYU- Pathway\Block_5_2026\WDD131\wdd131\week06\EternalQuest\bin\Debug\net10.0\EternalQuest.runtimeconfig.json
+D:\David\BYU- Pathway\Block_5_2026\WDD131\wdd131\week06\EternalQuest\bin\Debug\net10.0\EternalQuest.dll
+D:\David\BYU- Pathway\Block_5_2026\WDD131\wdd131\week06\EternalQuest\bin\Debug\net10.0\EternalQuest.pdb
+D:\David\BYU- Pathway\Block_5_2026\WDD131\wdd131\week06\EternalQuest\obj\Debug\net10.0\EternalQuest.GeneratedMSBuildEditorConfig.editorconfig
+D:\David\BYU- Pathway\Block_5_2026\WDD131\wdd131\week06\EternalQuest\obj\Debug\net10.0\EternalQuest.AssemblyInfoInputs.cache
+D:\David\BYU- Pathway\Block_5_2026\WDD131\wdd131\week06\EternalQuest\obj\Debug\net10.0\EternalQuest.AssemblyInfo.cs
+D:\David\BYU- Pathway\Block_5_2026\WDD131\wdd131\week06\EternalQuest\obj\Debug\net10.0\EternalQuest.csproj.CoreCompileInputs.cache
+D:\David\BYU- Pathway\Block_5_2026\WDD131\wdd131\week06\EternalQuest\obj\Debug\net10.0\EternalQuest.sourcelink.json
+D:\David\BYU- Pathway\Block_5_2026\WDD131\wdd131\week06\EternalQuest\obj\Debug\net10.0\EternalQuest.dll
+D:\David\BYU- Pathway\Block_5_2026\WDD131\wdd131\week06\EternalQuest\obj\Debug\net10.0\refint\EternalQuest.dll
+D:\David\BYU- Pathway\Block_5_2026\WDD131\wdd131\week06\EternalQuest\obj\Debug\net10.0\EternalQuest.pdb
+D:\David\BYU- Pathway\Block_5_2026\WDD131\wdd131\week06\EternalQuest\obj\Debug\net10.0\EternalQuest.genruntimeconfig.cache
+D:\David\BYU- Pathway\Block_5_2026\WDD131\wdd131\week06\EternalQuest\obj\Debug\net10.0\ref\EternalQuest.dll
